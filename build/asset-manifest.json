@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.80c5b720.chunk.css",
-    "main.js": "/static/js/main.e4168a64.chunk.js",
-    "main.js.map": "/static/js/main.e4168a64.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0c5ab20e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0c5ab20e.js.map",
-    "static/js/2.75d0a9c2.chunk.js": "/static/js/2.75d0a9c2.chunk.js",
-    "static/js/2.75d0a9c2.chunk.js.map": "/static/js/2.75d0a9c2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ac4216dd46d241f2761720e41202d952.js": "/precache-manifest.ac4216dd46d241f2761720e41202d952.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.80c5b720.chunk.css.map": "/static/css/main.80c5b720.chunk.css.map",
-    "static/js/2.75d0a9c2.chunk.js.LICENSE": "/static/js/2.75d0a9c2.chunk.js.LICENSE",
-    "static/media/first_logo.png": "/static/media/first_logo.4c4417d4.png"
+    "main.css": "/modamedic-web/static/css/main.80c5b720.chunk.css",
+    "main.js": "/modamedic-web/static/js/main.5527e373.chunk.js",
+    "main.js.map": "/modamedic-web/static/js/main.5527e373.chunk.js.map",
+    "runtime-main.js": "/modamedic-web/static/js/runtime-main.752597ec.js",
+    "runtime-main.js.map": "/modamedic-web/static/js/runtime-main.752597ec.js.map",
+    "static/js/2.7cca0f85.chunk.js": "/modamedic-web/static/js/2.7cca0f85.chunk.js",
+    "static/js/2.7cca0f85.chunk.js.map": "/modamedic-web/static/js/2.7cca0f85.chunk.js.map",
+    "index.html": "/modamedic-web/index.html",
+    "precache-manifest.1cf10aab0c87b3cf9afe66ea49955e4d.js": "/modamedic-web/precache-manifest.1cf10aab0c87b3cf9afe66ea49955e4d.js",
+    "service-worker.js": "/modamedic-web/service-worker.js",
+    "static/css/main.80c5b720.chunk.css.map": "/modamedic-web/static/css/main.80c5b720.chunk.css.map",
+    "static/js/2.7cca0f85.chunk.js.LICENSE": "/modamedic-web/static/js/2.7cca0f85.chunk.js.LICENSE",
+    "static/media/first_logo.png": "/modamedic-web/static/media/first_logo.4c4417d4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c5ab20e.js",
-    "static/js/2.75d0a9c2.chunk.js",
+    "static/js/runtime-main.752597ec.js",
+    "static/js/2.7cca0f85.chunk.js",
     "static/css/main.80c5b720.chunk.css",
-    "static/js/main.e4168a64.chunk.js"
+    "static/js/main.5527e373.chunk.js"
   ]
 }
