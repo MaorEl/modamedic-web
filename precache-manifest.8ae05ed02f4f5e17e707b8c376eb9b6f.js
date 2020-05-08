@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aff507307c6346feaf89f308391413dc",
+    "revision": "2f49947799b7a33b7b1cfae9b313033f",
     "url": "/modamedic-web/index.html"
   },
   {
-    "revision": "85c82d9324f19415bf45",
+    "revision": "3ea4313037fe1e010025",
     "url": "/modamedic-web/static/css/main.80c5b720.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/modamedic-web/static/js/2.7cca0f85.chunk.js.LICENSE"
   },
   {
-    "revision": "85c82d9324f19415bf45",
-    "url": "/modamedic-web/static/js/main.5527e373.chunk.js"
+    "revision": "3ea4313037fe1e010025",
+    "url": "/modamedic-web/static/js/main.76fd6dc3.chunk.js"
   },
   {
     "revision": "e23d3a96fe6eb3cc2c2e",

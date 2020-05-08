@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/modamedic-web/precache-manifest.1cf10aab0c87b3cf9afe66ea49955e4d.js"
+  "/modamedic-web/precache-manifest.8ae05ed02f4f5e17e707b8c376eb9b6f.js"
 );
 
 self.addEventListener('message', (event) => {
