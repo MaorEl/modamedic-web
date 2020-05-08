@@ -17,7 +17,7 @@ class Home extends Component{
 
     render(){
         return(
-            <Router>
+            <Router basename="/modamedic-web/">
                 <Switch>
                     <Route exact path="/">
                         <HomeLogin />
