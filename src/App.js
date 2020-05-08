@@ -39,7 +39,7 @@ class App extends Component{
       });
     }
     else{
-      let url = 'http://icc.ise.bgu.ac.il/njsw03auth/usersAll/askChangePassword';
+      let url = 'https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03auth/usersAll/askChangePassword';
       var token;
       const response = await axios.post(
         url,
@@ -52,7 +52,7 @@ class App extends Component{
         }
       );
       token = response.data.data;
-      url = 'http://icc.ise.bgu.ac.il/njsw03users/passwordChangeCheck/changePassword';
+      url = 'https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03users/passwordChangeCheck/changePassword';
       const responsec = await axios.post(
         url,
         {

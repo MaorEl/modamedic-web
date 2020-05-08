@@ -38,7 +38,7 @@ class Search extends Component {
         var arr = []
         
         if(this.state.steps){
-            const response = await fetch("http://icc.ise.bgu.ac.il/njsw03metrics/getSteps?UserID=111111111"/*+this.state.searchValue*/)
+            const response = await fetch("https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03metrics/getSteps?UserID=111111111"/*+this.state.searchValue*/)
             // We get the API response and receive data in JSON format...
             const json = await response.json();
             // ...then we update the users state
@@ -48,7 +48,7 @@ class Search extends Component {
             })
         }
         if(this.state.distance){
-            const response = await fetch("http://icc.ise.bgu.ac.il/njsw03metrics/getDistance?UserID=111111111"/*+this.state.searchValue*/)
+            const response = await fetch("https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03metrics/getDistance?UserID=111111111"/*+this.state.searchValue*/)
             // We get the API response and receive data in JSON format...
             const json = await response.json();
             // ...then we update the users state
@@ -58,7 +58,7 @@ class Search extends Component {
             })
         }
         if(this.state.calories){
-            const response = await fetch("http://icc.ise.bgu.ac.il/njsw03metrics/getCalories?UserID=111111111"/*+this.state.searchValue*/)
+            const response = await fetch("https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03metrics/getCalories?UserID=111111111"/*+this.state.searchValue*/)
             // We get the API response and receive data in JSON format...
             const json = await response.json();
             // ...then we update the users state
@@ -68,7 +68,7 @@ class Search extends Component {
             })
         }
         if(this.state.weather){
-            const response = await fetch("http://icc.ise.bgu.ac.il/njsw03metrics/getWeather?UserID=111111111"/*+this.state.searchValue*/)
+            const response = await fetch("https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03metrics/getWeather?UserID=111111111"/*+this.state.searchValue*/)
             // We get the API response and receive data in JSON format...
             const json = await response.json();
             // ...then we update the users state

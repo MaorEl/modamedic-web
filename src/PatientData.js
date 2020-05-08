@@ -45,7 +45,7 @@ class PatientData extends Component {
         e.preventDefault();
         let date = (new Date(this.state.new_date)).getTime();
         let id = this.state.user["UserID"];
-        axios.post('http://icc.ise.bgu.ac.il/njsw03auth/usersAll/changeDateOfSurgery', 
+        axios.post('https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03auth/usersAll/changeDateOfSurgery', 
         {
             UserID: id,
             DateOfSurgery: date
@@ -98,7 +98,7 @@ class PatientData extends Component {
             })
         }           
         let id = this.state.user["UserID"];
-        axios.post('http://icc.ise.bgu.ac.il/njsw03auth/usersAll/changeUserQuestionnaire', 
+        axios.post('https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03auth/usersAll/changeUserQuestionnaire', 
         {
             UserID: id,
             Questionnaires: Questionnaires

@@ -74,7 +74,7 @@ class Search extends Component {
     }
 
     async getRequest(name, url){
-        let getUrl = 'http://icc.ise.bgu.ac.il/njsw03auth/doctors/' + url + '?FirstName=' + this.state.pName + '&LastName=' + this.state.fName;
+        let getUrl = 'https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03auth/doctors/' + url + '?FirstName=' + this.state.pName + '&LastName=' + this.state.fName;
 
         if(this.state.start_date !== ""){
             var date = new Date(this.state.start_date)
@@ -141,7 +141,7 @@ class Search extends Component {
         }
         /*
         const response = await axios.get(
-            "http://icc.ise.bgu.ac.il/njsw03auth/usersAll/getDateOfSurgery?UserID=" + id,
+            "https://cors-anywhere.herokuapp.com/http://icc.ise.bgu.ac.il/njsw03auth/usersAll/getDateOfSurgery?UserID=" + id,
             { 
                 headers: { 
                     'Content-Type': 'application/json',
